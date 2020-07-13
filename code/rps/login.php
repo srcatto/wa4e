@@ -1,7 +1,7 @@
 <?php // Do not put any HTML above this line
 
 if ( isset($_POST['cancel'] ) ) {
-    // Redirect the browser to game.php
+    // Redirect the browser to index.php
     header("Location: index.php");
     return;
 }
